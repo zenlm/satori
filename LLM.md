@@ -1,7 +1,9 @@
-# satori — AI Assistant Context
+# satori
 
-<p align="center">
-    <img src="https://github.com/hpcaitech/Open-Sora-Demo/blob/main/readme/icon.png" width="250"/>
-</p>
-<div align="center">
-    <a href="https://github.com/hpcaitech/Open-Sora/stargazers"><img src="https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social"></a>
+Fork of [Open-Sora](https://github.com/hpcaitech/Open-Sora) — Diffusion Transformer video generation (text-to-video and image-to-video up to 720p, multi-resolution, sequence-parallel inference). Zen LM's video-generation base (Hanzo AI).
+
+Core package: `opensora/`. Also `configs/`, `scripts/`, `gradio/` (demo UI).
+
+- Setup: `pip install -r requirements.txt` (then `pip install -e .`)
+
+Full docs: README.md
