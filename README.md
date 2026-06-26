@@ -1,28 +1,16 @@
 # Satori
 
-High-quality video generation with DiT architecture. Part of the Zen LM ecosystem.
+High-quality text-to-video and image-to-video generation with a Diffusion Transformer (DiT) architecture.
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+> **Status: work in progress.** Built on a permissive, commercially-licensed foundation (no non-commercial or restricted-weight dependencies). The Zen model is not yet trained/integrated here — this provides the licensing, attribution, and integration scaffold.
 
-## Overview
-
-Satori is a video generation framework using Diffusion Transformer (DiT) architecture, supporting text-to-video and image-to-video generation at high resolution.
-
-## Features
-
-- Text-to-video generation up to 720p
-- Image-to-video animation
-- Multi-resolution and variable duration support
-- Efficient inference with sequence parallelism
-
-## Related
-
-- [zen-video](https://github.com/zenlm/zen-video) — Video generation models
-- [zen-director](https://github.com/zenlm/zen-director) — Video direction and control
-- [Zen LM](https://github.com/zenlm) — Full model family
+## Foundation
+Built on **Open-Sora** (HPC-AI Tech, Apache-2.0) — a permissive, commercial-friendly DiT video foundation.
 
 ## License
+Apache License — see [LICENSE](LICENSE) and [NOTICE](NOTICE). Copyright 2025-2026 Zen Authors (https://zenlm.org).
 
-Apache 2.0
-
-*Part of the [Zen LM](https://zenlm.org) ecosystem by [Hanzo AI](https://hanzo.ai)*
+## Roadmap
+- [ ] Wire the Open-Sora backbone as the generation pipeline
+- [ ] Replace the VAE with a permissive (Apache/MIT) alternative
+- [ ] Train / fine-tune the Zen variant, then release

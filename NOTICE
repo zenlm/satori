@@ -1,6 +1,11 @@
-Satori
-Copyright (c) 2025 Zen LM, Inc.
+satori
+Copyright 2025-2026 Zen Authors
 
-This product includes software from Open-Sora (https://github.com/hpcaitech/Open-Sora), licensed under Apache License 2.0:
+Licensed under the Apache License, Version 2.0.
+Developed by the Zen Authors (https://zenlm.org).
 
-    Copyright 2024 HPC-AI Technology Inc.
+Built on:
+Open-Sora (HPC-AI Tech, Apache-2.0) — a permissive, commercial-friendly DiT video foundation.
+
+Removed (non-permissive — not used):
+- Tencent HunyuanVideo VAE / components (TENCENT HUNYUAN COMMUNITY LICENSE — commercial-capped).
